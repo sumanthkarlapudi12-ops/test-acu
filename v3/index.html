@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Amrutha Acu Healing | Find your relief</title>
+<meta name="description" content="Pick where it hurts and book acupuncture in Vijayawada, Guntur or Pamarru. Safe, natural, drug-free holistic healing.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0e2519;--bg2:#143325;--card:#1a3f2e;--line:rgba(217,184,106,.28);--cream:#f7f0dd;--gold:#d9b86a;--gold2:#b8923f;--mute:rgba(247,240,221,.68);--serif:'Cormorant Garamond',Georgia,serif;--sans:'Inter',system-ui,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--sans);background:var(--bg);color:var(--cream);line-height:1.6;-webkit-font-smoothing:antialiased;padding-bottom:70px}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1140px;margin:0 auto;padding:0 20px}
+h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.08}
+h2{font-size:clamp(2rem,4.5vw,3.2rem)}
+h2 em,h1 em{font-style:italic;color:var(--gold);font-weight:500}
+.eyebrow{font-size:.74rem;letter-spacing:.24em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:12px;display:block}
+section{padding:90px 0}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 26px;border-radius:999px;font:600 .95rem var(--sans);border:1.5px solid transparent;cursor:pointer;transition:.2s}
+.btn-gold{background:var(--gold);color:#18281d}.btn-gold:hover{background:#ecce85}
+.btn-line{border-color:var(--gold);color:var(--gold);background:none}.btn-line:hover{background:rgba(217,184,106,.12)}
+.btn svg{width:18px;height:18px}
+
+header{position:sticky;top:0;z-index:50;background:rgba(14,37,25,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.nav{height:64px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-family:var(--serif);font-size:1.4rem;font-weight:700;display:flex;gap:10px;align-items:center}
+.logo svg{width:26px;height:26px;color:var(--gold)}
+.nav ul{display:flex;gap:26px;list-style:none;font-size:.9rem;color:var(--mute)}.nav ul a:hover{color:var(--gold)}
+@media(max-width:820px){.nav ul{display:none}}
+
+/* hero with body map */
+.hero{padding:60px 0 90px;background:radial-gradient(800px 500px at 80% 30%,rgba(47,106,76,.45),transparent 65%)}
+.hero .grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.hero h1{font-size:clamp(2.8rem,6.4vw,5.2rem)}
+.hero p.l{margin-top:18px;color:var(--mute);max-width:480px;font-size:1.05rem}
+.hint{margin-top:30px;display:inline-flex;gap:10px;align-items:center;font-size:.85rem;color:var(--gold);border:1px dashed var(--line);padding:10px 16px;border-radius:12px}
+.hint i{width:10px;height:10px;border-radius:50%;background:var(--gold);animation:p 1.8s infinite}
+@keyframes p{0%{box-shadow:0 0 0 0 rgba(217,184,106,.7)}100%{box-shadow:0 0 0 14px rgba(217,184,106,0)}}
+.map{max-width:340px;margin:0 auto;position:relative;width:100%}
+.map svg{width:100%;height:auto;display:block}
+.body{fill:#173a2a;stroke:var(--line);stroke-width:1.5}
+.hs{cursor:pointer}
+.hs circle.d{fill:var(--gold);transition:.2s}
+.hs circle.r{fill:none;stroke:var(--gold);stroke-width:1.5;transform-box:fill-box;transform-origin:center;animation:rp 2.4s infinite}
+.hs:nth-of-type(2n) circle.r{animation-delay:.6s}.hs:nth-of-type(3n) circle.r{animation-delay:1.2s}
+@keyframes rp{0%{transform:scale(.6);opacity:1}100%{transform:scale(2.6);opacity:0}}
+.hs:hover circle.d,.hs.on circle.d{fill:#fff}
+.hs.on circle.r{stroke:#fff}
+.hs text{fill:var(--cream);font:600 10px var(--sans);opacity:0;transition:.2s;pointer-events:none}
+.hs:hover text,.hs.on text{opacity:1}
+@media(max-width:820px){.hero .grid{grid-template-columns:1fr}.map{max-width:260px;order:-1}}
+
+/* explorer */
+.explore{background:var(--bg2);border-block:1px solid var(--line)}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:30px}
+.chip{padding:10px 18px;border-radius:999px;border:1px solid var(--line);background:none;color:var(--cream);font:500 .9rem var(--sans);cursor:pointer;transition:.2s}
+.chip:hover{border-color:var(--gold)}
+.chip.on{background:var(--gold);color:#18281d;border-color:var(--gold);font-weight:600}
+.panel{margin-top:28px;background:var(--card);border:1px solid var(--line);border-radius:24px;padding:36px;display:grid;grid-template-columns:1.2fr .8fr;gap:36px}
+.panel h3{font-size:2.3rem;margin-bottom:8px}
+.panel p{color:var(--mute)}
+.panel ul{margin:16px 0 0;padding-left:0;list-style:none;display:grid;gap:8px;font-size:.95rem}
+.panel li::before{content:"✦";color:var(--gold);margin-right:10px}
+.side{background:var(--bg);border-radius:18px;padding:24px;border:1px solid var(--line);display:flex;flex-direction:column;gap:12px;justify-content:center}
+.side small{color:var(--mute);font-size:.82rem}
+.disc{margin-top:18px;font-size:.8rem;color:var(--mute)}
+@media(max-width:820px){.panel{grid-template-columns:1fr;padding:24px}}
+
+/* why */
+.why-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-top:40px}
+.why-grid div{border:1px solid var(--line);border-radius:18px;padding:26px;background:linear-gradient(160deg,rgba(26,63,46,.7),transparent)}
+.why-grid b{font-family:var(--serif);font-size:1.5rem;color:var(--gold);display:block;margin-bottom:6px}
+.why-grid p{color:var(--mute);font-size:.93rem}
+
+/* book */
+.book{background:var(--bg2);border-block:1px solid var(--line)}
+.bk{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:start}
+@media(max-width:820px){.bk{grid-template-columns:1fr}}
+.bk p.l{color:var(--mute);margin-top:14px}
+form{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:30px;display:grid;gap:16px}
+label{font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);font-weight:600;display:grid;gap:6px}
+input,select,textarea{font:400 1rem var(--sans);background:var(--bg);color:var(--cream);border:1px solid var(--line);border-radius:12px;padding:13px 14px;width:100%}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--gold);outline-offset:1px}
+.radios{display:flex;gap:8px;flex-wrap:wrap}
+.radios label{text-transform:none;letter-spacing:0;font-size:.9rem;color:var(--cream);font-weight:500;display:block}
+.radios input{position:absolute;opacity:0;width:0}
+.radios span{display:block;padding:10px 16px;border-radius:999px;border:1px solid var(--line);cursor:pointer;transition:.2s}
+.radios input:checked+span{background:var(--gold);color:#18281d;border-color:var(--gold);font-weight:600}
+.radios input:focus-visible+span{outline:2px solid #fff}
+.fine{font-size:.78rem;color:var(--mute)}
+
+/* branches */
+.b-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:18px;margin-top:40px}
+.br{border:1px solid var(--line);border-radius:22px;padding:28px;background:var(--card);display:flex;flex-direction:column}
+.br h3{font-size:2rem;color:var(--gold)}
+.br address{font-style:normal;color:var(--mute);margin:8px 0 18px;flex:1;font-size:.95rem}
+.br .a{display:flex;gap:10px;flex-wrap:wrap}.br .btn{padding:10px 18px;font-size:.88rem}
+
+footer{padding:34px 0 20px;text-align:center;color:var(--mute);font-size:.8rem;border-top:1px solid var(--line)}
+footer .t{font-family:var(--serif);font-size:2.4rem;color:var(--gold);display:block}
+footer p{margin-top:8px;font-size:.74rem;opacity:.7}
+
+/* sticky bar */
+.bar{position:fixed;left:0;right:0;bottom:0;z-index:60;display:flex;gap:10px;padding:10px 14px;background:rgba(14,37,25,.96);backdrop-filter:blur(8px);border-top:1px solid var(--line)}
+.bar .btn{flex:1;padding:13px}
+@media(min-width:900px){.bar{left:auto;right:20px;bottom:20px;border:1px solid var(--line);border-radius:999px;padding:8px}.bar .btn{flex:none;padding:12px 22px}}
+.reveal{opacity:0;transform:translateY(22px);transition:.8s}.reveal.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none}.hs circle.r,.hint i{animation:none}}
+</style>
+<noscript><style>.reveal{opacity:1;transform:none}</style></noscript>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Ccircle cx=%2732%27 cy=%2732%27 r=%2732%27 fill=%27%230f2a1d%27/%3E%3Cg fill=%27none%27 stroke=%27%23dcbc6f%27 stroke-width=%273%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27%3E%3Cpath d=%27M32 12c5 7 5 17 0 25-5-8-5-18 0-25z%27/%3E%3Cpath d=%27M32 37c-8-2-14-8-16-16 8 0 14 5 16 16z%27/%3E%3Cpath d=%27M32 37c8-2 14-8 16-16-8 0-14 5-16 16z%27/%3E%3Cpath d=%27M14 34c4 8 10 13 18 14 8-1 14-6 18-14%27/%3E%3C/g%3E%3C/svg%3E"><style id="vsw-css">.vsw{position:fixed;left:14px;bottom:14px;z-index:9999;font:500 13px/1.3 system-ui,sans-serif;padding:0!important;border:0!important;margin:0!important;background:none!important;width:auto!important}
+.vsw>summary{font:500 13px/1.3 system-ui,sans-serif!important;letter-spacing:0!important;justify-content:flex-start!important;list-style:none;cursor:pointer;background:#0f2a1d;color:#f4ecd8;border:1px solid #dcbc6f;border-radius:999px;padding:9px 14px;box-shadow:0 6px 18px rgba(0,0,0,.3);display:inline-flex;gap:6px;align-items:center}
+.vsw>summary::-webkit-details-marker{display:none}.vsw>summary::after{content:none!important;display:none!important}
+.vsw[open]>summary{border-radius:14px 14px 0 0}
+.vsw>div{position:absolute;bottom:100%;left:0;min-width:210px;background:#0f2a1d;border:1px solid #dcbc6f;border-radius:14px 14px 14px 0;padding:6px;box-shadow:0 10px 26px rgba(0,0,0,.35)}
+.vsw a{font:500 13px/1.3 system-ui,sans-serif!important;display:block;color:#f4ecd8;text-decoration:none;padding:9px 12px;border-radius:9px}
+.vsw a:hover{background:#1a3f2e}.vsw a.on{color:#dcbc6f;font-weight:700}
+.vsw hr{border:0;border-top:1px solid rgba(220,188,111,.3);margin:4px 0}
+@media(max-width:700px){.vsw{bottom:78px}}</style></head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<symbol id="lotus" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M32 10c6 8 6 20 0 30-6-10-6-22 0-30z"/><path d="M32 40C22 38 14 30 12 20c10 0 18 6 20 20z"/><path d="M32 40c10-2 18-10 20-20-10 0-18 6-20 20z"/><path d="M10 34c4 10 12 16 22 18 10-2 18-8 22-18"/></symbol>
+<symbol id="wa" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1-1.5-.7-2.5-1.3-3.4-2.9-.3-.4.3-.4.8-1.4.1-.2 0-.3 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.8.8-1 1.7-.9 2.6.3 1.5 1.3 2.8 2.4 3.8 1.7 1.5 3 2 4.4 2.4.7.2 1.4.2 1.9.1.6-.1 1.7-.7 1.9-1.4.2-.6.2-1.2.2-1.3-.1-.1-.3-.2-.6-.3z"/></symbol>
+<symbol id="ph" viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11 11 0 0 0 3.5.56 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.2.2 2.4.56 3.5a1 1 0 0 1-.25 1z"/></symbol>
+</svg>
+
+<header><div class="wrap nav">
+  <a class="logo" href="#top"><svg><use href="#lotus"/></svg>Amrutha Acu Healing</a>
+  <ul><li><a href="#explore">Find relief</a></li><li><a href="#why">Why us</a></li><li><a href="#book">Book</a></li><li><a href="#branches">Branches</a></li></ul>
+  <a class="btn btn-gold" style="padding:10px 20px" href="tel:+919642328793">Call</a>
+</div></header>
+
+<main id="top">
+<section class="hero"><div class="wrap grid">
+  <div>
+    <span class="eyebrow">Acupuncture Wellness Centre</span>
+    <h1>Heal <em>naturally.</em><br>Start where it hurts.</h1>
+    <p class="l">Tap a glowing point on the body to see how acupuncture may help, then book at the branch nearest you in Vijayawada, Guntur or Pamarru.</p>
+    <div class="hint"><i></i>Tap a point to explore</div>
+  </div>
+  <div class="map">
+    <svg viewBox="0 0 240 460" role="group" aria-label="Body map: choose an area to learn how acupuncture may help">
+      <g class="body-g"><circle class="body" cx="120" cy="44" r="26"/><rect class="body" x="108" y="66" width="24" height="26" rx="8"/>
+      <path class="body" d="M72 98 Q120 80 168 98 Q182 104 182 124 L178 196 Q176 236 160 262 L80 262 Q64 236 62 196 L58 124 Q58 104 72 98Z"/>
+      <rect class="body" x="30" y="104" width="30" height="120" rx="15" transform="rotate(8 45 104)"/>
+      <rect class="body" x="180" y="104" width="30" height="120" rx="15" transform="rotate(-8 195 104)"/>
+      <rect class="body" x="80" y="250" width="38" height="190" rx="19"/><rect class="body" x="122" y="250" width="38" height="190" rx="19"/></g>
+      <g class="hs" aria-pressed="false" data-k="migraine" tabindex="0" role="button" aria-label="Head"><circle class="r" cx="120" cy="44" r="7"/><circle class="d" cx="120" cy="44" r="6"/><text x="134" y="48">Head</text></g>
+      <g class="hs" aria-pressed="false" data-k="neck" tabindex="0" role="button" aria-label="Neck and shoulders"><circle class="r" cx="84" cy="100" r="7"/><circle class="d" cx="84" cy="100" r="6"/><text x="10" y="104">Neck &amp; shoulders</text></g>
+      <g class="hs" aria-pressed="false" data-k="stress" tabindex="0" role="button" aria-label="Chest"><circle class="r" cx="120" cy="130" r="7"/><circle class="d" cx="120" cy="130" r="6"/><text x="134" y="134">Stress</text></g>
+      <g class="hs" aria-pressed="false" data-k="back" tabindex="0" role="button" aria-label="Back"><circle class="r" cx="156" cy="170" r="7"/><circle class="d" cx="156" cy="170" r="6"/><text x="168" y="174">Back</text></g>
+      <g class="hs" aria-pressed="false" data-k="menstrual" tabindex="0" role="button" aria-label="Lower abdomen"><circle class="r" cx="120" cy="215" r="7"/><circle class="d" cx="120" cy="215" r="6"/><text x="134" y="219">Menstrual</text></g>
+      <g class="hs" aria-pressed="false" data-k="sciatica" tabindex="0" role="button" aria-label="Hip and leg"><circle class="r" cx="92" cy="256" r="7"/><circle class="d" cx="92" cy="256" r="6"/><text x="14" y="260">Sciatica</text></g>
+      <g class="hs" aria-pressed="false" data-k="knee" tabindex="0" role="button" aria-label="Knee"><circle class="r" cx="148" cy="330" r="7"/><circle class="d" cx="148" cy="330" r="6"/><text x="160" y="334">Knee</text></g>
+    </svg>
+  </div>
+</div></section>
+
+<section id="explore" class="explore"><div class="wrap">
+  <span class="eyebrow">Acupuncture can help with</span>
+  <h2>What would you like <em>relief from?</em></h2>
+  <div class="chips" id="chips" role="tablist"></div>
+  <div class="panel" id="panel" aria-live="polite"></div>
+  <p class="disc">General information only. Acupuncture is a complementary therapy and does not replace medical diagnosis or emergency care. Your practitioner will advise on what is suitable for you.</p>
+</div></section>
+
+<section id="why"><div class="wrap">
+  <span class="eyebrow">Why choose us</span>
+  <h2 class="reveal">Care built <em>around you</em></h2>
+  <div class="why-grid">
+    <div class="reveal"><b>Holistic healing approach</b><p>We look at the whole person, not only where it hurts.</p></div>
+    <div class="reveal"><b>Personalised care</b><p>Plans shaped around your body, history and goals.</p></div>
+    <div class="reveal"><b>Safe, careful treatments</b><p>Natural, drug-free therapy delivered with care.</p></div>
+    <div class="reveal"><b>Comfortable environment</b><p>A calm, professional space where you can relax.</p></div>
+  </div>
+</div></section>
+
+<section id="book" class="book"><div class="wrap bk">
+  <div>
+    <span class="eyebrow">Book your appointment today</span>
+    <h2>Tell us a little. <em>We'll take it from there.</em></h2>
+    <p class="l">Fill this in and it opens WhatsApp with your message ready to send. Nothing is stored on this website.</p>
+  </div>
+  <form id="f">
+    <label>Your name<input id="n" required autocomplete="name" placeholder="Name"></label>
+    <label>Branch<div class="radios">
+      <label><input type="radio" name="b" value="Vijayawada" checked><span>Vijayawada</span></label>
+      <label><input type="radio" name="b" value="Guntur"><span>Guntur</span></label>
+      <label><input type="radio" name="b" value="Pamarru"><span>Pamarru</span></label></div></label>
+    <label>What would you like help with?<select id="c"></select></label>
+    <label>Anything else? (optional)<textarea id="m" rows="2" placeholder="Preferred day or time"></textarea></label>
+    <button class="btn btn-gold" type="submit"><svg><use href="#wa"/></svg>Continue on WhatsApp</button>
+    <span class="fine">Prefer to talk? Call 9642328793.</span>
+  </form>
+</div></section>
+
+<section id="branches"><div class="wrap">
+  <span class="eyebrow">Our branches</span>
+  <h2 class="reveal">Three clinics, <em>one standard of care</em></h2>
+  <div class="b-grid">
+    <div class="br reveal"><h3>Vijayawada</h3><address>202, Avasa Brundavan, Loyola,<br>Vijayawada – 520008</address><div class="a"><a class="btn btn-gold" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Avasa+Brundavan+Loyola+Vijayawada+520008">Directions</a><a class="btn btn-line" href="tel:+919642328793">Call</a></div></div>
+    <div class="br reveal"><h3>Guntur</h3><address>Masters Residency, 8/2, 8th lane,<br>Near Bommarillu Apartments,<br>Madhura Nagar, Guntur – 522034</address><div class="a"><a class="btn btn-gold" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Masters+Residency+Madhura+Nagar+Guntur+522034">Directions</a><a class="btn btn-line" href="tel:+919642328793">Call</a></div></div>
+    <div class="br reveal"><h3>Pamarru</h3><address>C/o Suresh Kumar (Master), 21-27,<br>Gandhi Nagar, Vijayawada Road,<br>Pamarru – 521301</address><div class="a"><a class="btn btn-gold" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Gandhi+Nagar+Vijayawada+Road+Pamarru+521301">Directions</a><a class="btn btn-line" href="tel:+919642328793">Call</a></div></div>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="wrap"><a class="t" href="tel:+919642328793">9642328793</a><a href="mailto:murali1242@gmail.com">murali1242@gmail.com</a><p>© Amrutha Acu Healing · Design concept preview based on the clinic's public poster.</p></div></footer>
+
+<div class="bar">
+  <a class="btn btn-line" href="tel:+919642328793"><svg><use href="#ph"/></svg>Call</a>
+  <a class="btn btn-gold" target="_blank" rel="noopener" href="https://wa.me/919642328793?text=Hello%2C%20I%27d%20like%20to%20book%20an%20appointment."><svg><use href="#wa"/></svg>WhatsApp</a>
+</div>
+
+<script>
+const PH='919642328793';
+const D={
+ migraine:{t:'Migraine & headache care',d:'Frequent headaches and migraines can wear you down. Acupuncture is a gentle, drug-free option many people explore for headache support.',l:['A conversation about triggers, sleep and routine','Fine, comfortable needling at selected points','A follow-up plan to track how you feel']},
+ neck:{t:'Neck, shoulder & joint pain',d:'Long hours at a desk, age or strain can leave the neck, shoulders and joints stiff. Treatment is tailored to the area and your daily movement.',l:['Assessment of the painful area and movement','Targeted points to ease tension and discomfort','Simple guidance you can use at home']},
+ stress:{t:'Stress & anxiety relief',d:'Sometimes the most valuable part of a session is the quiet. Many people find acupuncture a calming break for body and mind.',l:['A peaceful, unhurried setting','Relaxing points chosen for you','Space to talk about what is on your mind']},
+ back:{t:'Back pain',d:'Ongoing back discomfort can limit work and rest. Your practitioner will look at the cause and plan care that suits you.',l:['Understanding where and when it hurts','Treatment focused on the back and surrounding areas','A realistic plan for how many visits may help']},
+ menstrual:{t:'Menstrual disorders',d:'Private, respectful care for menstrual discomfort and irregularities, discussed openly with your practitioner.',l:['A confidential conversation about your cycle','Treatment personalised to your pattern','Follow-up across cycles to see how things change']},
+ sciatica:{t:'Sciatica',d:'Pain that travels from the lower back through the hip and leg can be hard to live with. Acupuncture is one supportive option people try.',l:['Mapping where the pain travels','Points along the back, hip and leg','Guidance on posture and movement']},
+ knee:{t:'Knee pain',d:'Knee discomfort affects stairs, walking and sleep. Care aims to support comfort and everyday movement.',l:['A look at how the knee feels in daily activity','Local and supporting points','A plan that fits your recovery pace']},
+ pain:{t:'Pain management',d:'Whatever the source, persistent pain deserves attentive care. We start by understanding your story.',l:['Detailed first consultation','Treatment personalised to you','Regular review of how you are responding']},
+ sleep:{t:'Sleep disorders support',d:'When rest does not come easily, everything feels harder. A calming approach may support better sleep.',l:['Talk through sleep habits and stressors','Relaxing treatment points','Simple evening routine tips']},
+ energy:{t:'Improved energy & overall wellness',d:'For when you are not unwell, just not yourself. Wellness sessions focus on balance and renewal.',l:['A whole-body conversation','Balancing treatment','Check-ins to keep you on track']}
+};
+const chips=document.getElementById('chips'),panel=document.getElementById('panel'),sel=document.getElementById('c');
+const order=['pain','stress','migraine','back','neck','knee','sciatica','sleep','energy','menstrual'];
+const label={pain:'Pain management',stress:'Stress & anxiety',migraine:'Migraine & headache',back:'Back pain',neck:'Neck, shoulder & joint pain',knee:'Knee pain',sciatica:'Sciatica',sleep:'Sleep support',energy:'Energy & wellness',menstrual:'Menstrual disorders'};
+order.forEach(k=>{
+  const b=document.createElement('button');b.className='chip';b.textContent=label[k];b.dataset.k=k;b.type='button';b.onclick=()=>show(k,true);chips.appendChild(b);
+  const o=document.createElement('option');o.value=label[k];o.textContent=label[k];sel.appendChild(o);
+});
+const oo=document.createElement('option');oo.value='Not sure yet';oo.textContent='Not sure yet';sel.appendChild(oo);
+function show(k,scroll){
+  const key=k, x=D[key];
+  chips.querySelectorAll('.chip').forEach(c=>c.classList.toggle('on',c.dataset.k===key));
+  document.querySelectorAll('.hs').forEach(h=>{const on=h.dataset.k===key;h.classList.toggle('on',on);h.setAttribute('aria-pressed',on)});
+  const msg=encodeURIComponent(`Hello, I'd like to book an appointment at Amrutha Acu Healing for: ${label[key]}.`);
+  panel.innerHTML=`<div><h3>${x.t}</h3><p>${x.d}</p><ul>${x.l.map(i=>`<li>${i}</li>`).join('')}</ul></div>
+  <div class="side"><small>Ready when you are</small><a class="btn btn-gold" target="_blank" rel="noopener" href="https://wa.me/${PH}?text=${msg}">Book on WhatsApp</a><a class="btn btn-line" href="#book" onclick="sel.value='${label[key].replace(/'/g,"\\'")}'">Use the booking form</a><small>Or call 9642328793</small></div>`;
+  sel.value=label[key];
+  if(scroll)document.getElementById('explore').scrollIntoView({behavior:'smooth',block:'start'});
+}
+document.querySelectorAll('.hs').forEach(h=>{
+  h.onclick=()=>show(h.dataset.k,true);
+  h.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();show(h.dataset.k,true)}};
+});
+show('pain',false);
+document.getElementById('f').onsubmit=e=>{
+  e.preventDefault();
+  const b=document.querySelector('input[name=b]:checked').value;
+  let t=`Hello, I'm ${document.getElementById('n').value}. I'd like to book an appointment at the ${b} branch for: ${sel.value}.`;
+  const m=document.getElementById('m').value.trim(); if(m)t+=` Note: ${m}`;
+  window.open(`https://wa.me/${PH}?text=${encodeURIComponent(t)}`,'_blank','noopener');
+};
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+
+
+
+<!--vsw--><details class="vsw"><summary>⇄ Versions</summary><div><a href="../v1/index.html">v1 · Classic</a><a href="../v2/index.html">v2 · Editorial</a><a href="../v3/index.html" class="on">v3 · Interactive</a><a href="../v4/index.html">v4 · Editorial + finder</a><a href="../v5/index.html">v5 · Full site</a><hr><a href="../index.html">All versions (main page)</a></div></details><!--/vsw-->
+</body>
+</html>
